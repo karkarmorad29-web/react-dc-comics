@@ -2,11 +2,11 @@
 function Header() {
     return (
         <header>
-            <img src="/dc-logo.png" alt="" />
+            <img id="logo" src="/img/dc-logo.png" alt="" />
             <nav>
                 <ul>
                     <li><a href="#"></a>CHARACTERS</li>
-                    <li><a href="#">COMICS</a></li>
+                    <li><a href="#"></a>COMICS</li>
                     <li><a href="#"></a>MOVIES</li>
                     <li><a href="#"></a>TV</li>
                     <li><a href="#"></a>GAMES</li>
