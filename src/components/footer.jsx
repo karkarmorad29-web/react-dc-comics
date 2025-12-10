@@ -1,7 +1,7 @@
 function Footer() {
     return (
         <Footer>
-            <div className="footer-container">
+            <div className="Footer-container">
                 <div className="colonna">
                     <img src="/img/buy-comics-digital-comics.png" alt="" />
                     <img src="/img/buy-comics-merchandise.png" alt="" />
