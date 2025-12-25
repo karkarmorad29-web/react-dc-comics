@@ -45,7 +45,9 @@ header nav ul {
   align-items: center;
   text-align: center;
   justify-content: center;
-
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 header nav ul li {
@@ -59,7 +61,7 @@ header nav ul li {
 }
 
 header nav ul li:hover {
-  background-color: blue;
+  background-color: #007BFF;
   color: #fff;
   border-radius: 5px;
 }
@@ -115,9 +117,9 @@ footer img:hover {
   display: flex;
   justify-content: space-between;
   align-items: start;
-  background-color: rgb(24, 102, 246);
   height: 200px;
   width: 100%;
+  background-color: rgb(49, 137, 239);
 }
 
 
