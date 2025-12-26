@@ -1,4 +1,8 @@
 import footerSections from "../data/footerItems.js";
+import DcComicslists from "../data/footerItems.js";
+import Shoplists from "../data/footerItems.js";
+import DClists from "../data/footerItems.js";
+import Siteslists from "../data/footerItems.js";
 
 function Footer() {
 
