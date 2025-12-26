@@ -10,10 +10,12 @@ function Footer() {
         { id: 7, label: "News", href: "#" }
     ];
 
+
     const Shoplists = [
         { id: 8, label: "Shop DC", href: "#" },
         { id: 9, label: "Shop DC Collectibles", href: "#" }
     ];
+
 
     const DClists = [
         { id: 10, label: "Terms Of Use", href: "#" },
@@ -28,6 +30,8 @@ function Footer() {
         { id: 19, label: "Shop Help", href: "#" },
         { id: 20, label: "Contact Us", href: "#" }
     ];
+
+
     const Siteslists = [
         { id: 21, label: "DC", href: "#" },
         { id: 22, label: "MAD Magazine", href: "#" },
@@ -120,7 +124,6 @@ function Footer() {
 
                 <div className="footer-Column">
                     <h4>DC COMICS</h4>
-
                     <ul className="first-ul">
                         <li>Characters</li>
                         <li>Comics</li>
@@ -130,6 +133,8 @@ function Footer() {
                         <li>Videos</li>
                         <li>News</li>
                     </ul>
+
+
                 </div>
 
 
