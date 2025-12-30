@@ -8,7 +8,7 @@ function Footer() {
     return (
         <footer>
             <div className="flex-container  justify-content-space-between">
-                <div className="flex-container align-items-center">
+                <div className="footer-Column">
                     <div className="imag">
                         <img src="/img/buy-comics-digital-comics.png" alt="" />
                         <img src="/img/buy-comics-merchandise.png" alt="" />
@@ -45,8 +45,6 @@ function Footer() {
                         <li>Videos</li>
                         <li>News</li>
                     </ul>
-
-
                 </div>
 
 
@@ -111,8 +109,8 @@ function Footer() {
             </div>
 
             <div className="soccial flex-container justify-content-space-between boxed">
-                <button className="bottone">Sign-Up Now!</button>
 
+                <button className="footer-button">Sign-Up Now!</button>
                 <div>
                     <span>Follow Us</span>
                     <img src="/img/footer-facebook.png" alt="Facebook" />
@@ -121,6 +119,10 @@ function Footer() {
                     <img src="/img/footer-pinterest.png" alt="Pinterest" />
                     <img src="/img/footer-periscope.png" alt="Periscope" />
                 </div>
+
+
+
+
             </div >
 
         </footer >

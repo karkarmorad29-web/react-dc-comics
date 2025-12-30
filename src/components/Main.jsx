@@ -9,7 +9,7 @@ function Main() {
 
             <div className="jumbotron-container text-center">
                 <img className="jumbotron" src="/img/jumbotron.jpg" alt="" />
-                <button>Current Series</button>
+                <button className="main-button">Current Series</button>
             </div>
 
             <div className="boxed main-content text-center">

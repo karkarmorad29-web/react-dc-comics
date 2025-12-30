@@ -2,11 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.2;
 }
 
 body {
-  font-family: 'Arial', sans-serif;
-  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 header {
@@ -84,7 +87,7 @@ main {
   height: 100%;
 }
 
-button {
+.main-button {
   position: absolute;
   bottom: 0px;
   left: 15%;
@@ -106,18 +109,27 @@ footer {
   text-align: center;
   height: 900px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  padding: 2rem 0;
+  margin-top: auto;
 }
 
 
 .imag {
   display: flex;
   align-items: center;
-  margin-right: 1rem;
-  justify-content: space-around;
-  width: 100%;
+  justify-content: space-between;
+  min-height: 100%;
+  width: 20%;
+
+  margin: 0 3rem;
+  padding: 0;
+
+
+
 }
 
 footer img {
@@ -139,6 +151,7 @@ footer img:hover {
   height: 200px;
   width: 100%;
   background-color: rgb(49, 137, 239);
+  padding: 1rem 2rem;
 }
 
 
@@ -155,7 +168,7 @@ footer img:hover {
 .footer-Column {
   display: flex;
   flex-direction: column;
-  width: 33%;
+  width: 30%;
   margin-top: 2rem;
   flex-basis: 0;
   gap: 1rem;
@@ -227,12 +240,12 @@ h4:hover {
 }
 
 .comic-card {
-  background-color: #1c1c1c;
   border-radius: 5px;
   padding: 1rem;
   margin: 1rem;
-  width: 30%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 20%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
 }
 
 .comic-card img {
@@ -254,13 +267,39 @@ h4:hover {
   margin: 0 1rem;
 }
 
-.bottone {
+.footer-button {
+  box-shadow: #007BFF 0px 10px 15px;
+  padding: 0.75rem 1.5rem;
   background-color: transparent;
   color: white;
-  border: 2px solid rgb(4, 60, 149);
-  padding: 0.5rem 1rem;
+  border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 16px;
+  margin-top: 1rem;
+  display: flex;
+  margin: 0 auto;
+  border-bottom: #007BFF 2px solid;
+
+}
+
+.footer-button:hover {
+  background-color: #007BFF;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: none;
+}
+
+span {
+  color: #007BFF;
   font-weight: bold;
-  margin: 0 8rem;
+  margin-top: 8rem;
+}
+
+
+img {
+  cursor: pointer;
+  transition: transform 0.3s;
+  padding: 1rem 0;
+  margin: 1rem 0;
 }
