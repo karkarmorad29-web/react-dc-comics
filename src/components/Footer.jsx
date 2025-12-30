@@ -5,10 +5,9 @@ import DClists from "../data/footerItems.js";
 import Siteslists from "../data/footerItems.js";
 
 function Footer() {
-
     return (
         <footer>
-            <div className="flex-container boxed justify-content-space-between">
+            <div className="flex-container  justify-content-space-between">
                 <div className="flex-container align-items-center">
                     <div className="imag">
                         <img src="/img/buy-comics-digital-comics.png" alt="" />
@@ -108,10 +107,21 @@ function Footer() {
                             })}
                         </ul>
                     </div>
-
-
                 </div>
             </div>
+
+            <div className="soccial flex-container justify-content-space-between boxed">
+                <button className="bottone">Sign-Up Now!</button>
+
+                <div>
+                    <span>Follow Us</span>
+                    <img src="/img/footer-facebook.png" alt="Facebook" />
+                    <img src="/img/footer-twitter.png" alt="Twitter" />
+                    <img src="/img/footer-youtube.png" alt="YouTube" />
+                    <img src="/img/footer-pinterest.png" alt="Pinterest" />
+                    <img src="/img/footer-periscope.png" alt="Periscope" />
+                </div>
+            </div >
 
         </footer >
     )

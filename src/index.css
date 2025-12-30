@@ -73,6 +73,31 @@ main {
   color: white;
 }
 
+.jumbotron-container {
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+.jumbotron {
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  position: absolute;
+  bottom: 0px;
+  left: 15%;
+  transform: translateX(-50%);
+  padding: 0.75rem 1.5rem;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
 footer {
   background-image: url('/img/footer-bg.jpg');
   background-repeat: no-repeat, no-repeat;
@@ -88,24 +113,18 @@ footer {
 
 
 .imag {
-  padding: 1rem;
   display: flex;
   align-items: center;
   margin-right: 1rem;
   justify-content: space-around;
-  width: 15%;
-  padding-top: 2rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
-
-
+  width: 100%;
 }
 
 footer img {
   min-height: 100%;
   margin: 0 1rem;
   justify-content: end;
+
 }
 
 footer img:hover {
@@ -129,22 +148,20 @@ footer img:hover {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-
-
+  padding: 2rem 0;
 
 }
 
 .footer-Column {
   display: flex;
+  flex-direction: column;
   width: 33%;
   margin-top: 2rem;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+  flex-basis: 0;
   gap: 1rem;
   padding: 0;
-  text-align: left;
-  justify-content: flex-start;
+  margin: 0;
+  flex-wrap: wrap;
 
 }
 
@@ -165,20 +182,23 @@ footer img:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
+  gap: 0.5rem;
 }
 
 li {
+  display: flex;
   list-style: none;
   height: 20px;
   margin: 0;
   padding: 0;
+
 
 }
 
 .first-ul li:first-child {
   font-weight: bold;
   margin-bottom: 1rem;
+
 }
 
 .first-ul li {
@@ -219,4 +239,28 @@ h4:hover {
   width: 100%;
   border-radius: 5px;
   margin-bottom: 1rem;
+}
+
+.soccial {
+  width: 1200px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: black;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.soccial img {
+  margin: 0 1rem;
+}
+
+.bottone {
+  background-color: transparent;
+  color: white;
+  border: 2px solid rgb(4, 60, 149);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 0 8rem;
 }
