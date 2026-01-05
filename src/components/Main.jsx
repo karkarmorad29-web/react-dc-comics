@@ -12,6 +12,7 @@ function Main() {
                 <button className="main-button">Current Series</button>
             </div>
 
+
             <div className="boxed main-content text-center">
                 <div className="comics">
 

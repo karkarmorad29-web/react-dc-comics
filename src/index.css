@@ -107,7 +107,7 @@ footer {
   background-size: cover;
   background-position: center;
   text-align: center;
-  height: 900px;
+  min-height: 900px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -124,7 +124,6 @@ footer {
   justify-content: space-between;
   min-height: 100%;
   width: 20%;
-
   margin: 0 3rem;
   padding: 0;
 
@@ -146,12 +145,12 @@ footer img:hover {
 
 .flex-container {
   display: flex;
+  text-align: center;
   justify-content: space-between;
-  align-items: start;
-  height: 200px;
+  margin-top: 0;
+  height: 150px;
   width: 100%;
   background-color: rgb(49, 137, 239);
-  padding: 1rem 2rem;
 }
 
 
@@ -165,9 +164,16 @@ footer img:hover {
 
 }
 
-.footer-Column {
+.row {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 100px;
+
+}
+
+.footer-Col {
+  display: flex;
   width: 30%;
   margin-top: 2rem;
   flex-basis: 0;
@@ -180,9 +186,9 @@ footer img:hover {
 
 
 
-.footer-Column .imag img {
+.footer-Colum .imag img {
   margin: 0.5rem 0;
-
+  display: flex;
 }
 
 .first-ul {
@@ -193,8 +199,6 @@ footer img:hover {
   padding: 0;
   width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   gap: 0.5rem;
 }
 
@@ -204,8 +208,6 @@ li {
   height: 20px;
   margin: 0;
   padding: 0;
-
-
 }
 
 .first-ul li:first-child {
@@ -223,7 +225,7 @@ li {
   text-decoration: underline;
 }
 
-h4 {
+.footer-col h4 {
   color: white;
   margin: 0;
   padding: 0;
@@ -255,21 +257,27 @@ h4:hover {
 }
 
 .soccial {
+  display: flex;
   width: 1200px;
   height: 100px;
   margin: 0 auto;
   background-color: black;
   text-align: center;
   padding: 1rem 0;
+  background-color: rgb(157, 8, 8);
 }
 
 .soccial img {
   margin: 0 1rem;
+  padding: 0.75rem;
+  display: inline;
+
 }
 
 .footer-button {
   box-shadow: #007BFF 0px 10px 15px;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem;
+  text-align: center;
   background-color: transparent;
   color: white;
   border: none;
