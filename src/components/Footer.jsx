@@ -122,8 +122,7 @@ function Footer() {
 
 
 
-            <div className="soccial">
-
+            <div className="social">
                 <button className="footer-button">Sign-Up Now!</button>
                 <div>
                     <span>Follow Us</span>
