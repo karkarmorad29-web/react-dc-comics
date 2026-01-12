@@ -122,7 +122,7 @@ function Footer() {
 
 
 
-            <div className=" soccial ">
+            <div className="soccial">
 
                 <button className="footer-button">Sign-Up Now!</button>
                 <div>

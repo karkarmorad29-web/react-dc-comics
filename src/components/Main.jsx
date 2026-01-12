@@ -25,15 +25,12 @@ function Main() {
                             </div>
                         )
                     })}
+
+
                 </div>
-
-
-
-
-
-
-
             </div>
+
+            <button className="LOAD">LOAD MORE</button>
         </main>
     );
 }

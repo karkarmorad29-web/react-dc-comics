@@ -103,18 +103,9 @@ main {
 
 footer {
   background-image: url('/img/footer-bg.jpg');
-  background-repeat: no-repeat, no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  text-align: center;
-  min-height: 900px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 2rem 0;
-  margin-top: auto;
 }
 
 
@@ -161,6 +152,7 @@ footer img:hover {
   justify-content: space-between;
   align-items: flex-start;
   padding: 2rem 0;
+  background-color: red;
 
 }
 
@@ -225,7 +217,7 @@ li {
   text-decoration: underline;
 }
 
-.footer-col h4 {
+h4 {
   color: white;
   margin: 0;
   padding: 0;
@@ -248,12 +240,14 @@ h4:hover {
   width: 20%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
+
 }
 
 .comic-card img {
   width: 100%;
   border-radius: 5px;
   margin-bottom: 1rem;
+  background-color: #007BFF;
 }
 
 .soccial {
@@ -310,4 +304,28 @@ img {
   transition: transform 0.3s;
   padding: 1rem 0;
   margin: 1rem 0;
+}
+
+.LOAD {
+  box-shadow: #007BFF 0px 10px 15px;
+  padding: 1rem;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 1rem;
+  display: flex;
+  margin: 0 auto;
+  border-bottom: #007BFF 2px solid;
+}
+
+.LOAD:hover {
+  background-color: #007BFF;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: none;
+
 }
