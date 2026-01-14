@@ -10,29 +10,29 @@ function Footer() {
             <div className="flex-container  justify-content-space-between">
                 <div className="row">
 
-                    <div>
+                    <div className="img">
                         <img src="/img/buy-comics-digital-comics.png" alt=" DIGITAL COMICS" />
-                        <p>b</p>
+                        <p>DIGITAL COMICS</p>
                     </div>
 
-                    <div>
+                    <div className="img">
                         <img src="/img/buy-comics-merchandise.png" alt=" MERCHANDISE" />
-                        <p>b</p>
+                        <p> MERCHANDISE</p>
                     </div>
 
-                    <div>
-                        <img src="/img/buy-comics-subscriptions.png" alt=" SUBSCRIPTIONS" />
-                        <p>b</p>
+                    <div className="img">
+                        <img src="/img/buy-comics-subscriptions.png" alt="SUBSCRIPTIONS" />
+                        <p> SUBSCRIPTIONS</p>
                     </div>
 
-                    <div>
+                    <div className="img">
                         <img src="/img/buy-comics-shop-locator.png" alt="SHOP LOCATOR" />
-                        <p>b</p>
+                        <p>SHOP LOCATOR</p>
 
                     </div>
-                    <div>
+                    <div className="img">
                         <img src="/img/buy-dc-power-visa.svg" alt=" DC POWER VISA" />
-                        <p>b</p>
+                        <p>DC POWER VISA</p>
                     </div>
 
 

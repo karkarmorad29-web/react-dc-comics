@@ -109,7 +109,7 @@ footer {
 }
 
 
-.imag {
+.img {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -117,17 +117,10 @@ footer {
   width: 20%;
   margin: 0 3rem;
   padding: 0;
-
-
-
 }
 
-footer img {
-  min-height: 100%;
-  margin: 0 1rem;
-  justify-content: end;
 
-}
+
 
 footer img:hover {
   transform: scale(1.1);
@@ -178,10 +171,7 @@ footer img:hover {
 
 
 
-.footer-Colum .imag img {
-  margin: 0.5rem 0;
-  display: flex;
-}
+
 
 .first-ul {
   list-style: none;
