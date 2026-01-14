@@ -15,22 +15,22 @@ function Footer() {
                         <p>DIGITAL COMICS</p>
                     </div>
 
-                    <div className="img">
+                    <div className="pre-footer-img">
                         <img src="/img/buy-comics-merchandise.png" alt=" MERCHANDISE" />
                         <p> MERCHANDISE</p>
                     </div>
 
-                    <div className="img">
+                    <div className="pre-footer-img">
                         <img src="/img/buy-comics-subscriptions.png" alt="SUBSCRIPTIONS" />
                         <p> SUBSCRIPTIONS</p>
                     </div>
 
-                    <div className="img">
+                    <div className="pre-footer-img">
                         <img src="/img/buy-comics-shop-locator.png" alt="SHOP LOCATOR" />
                         <p>SHOP LOCATOR</p>
 
                     </div>
-                    <div className="img">
+                    <div className="pre-footer-img">
                         <img src="/img/buy-dc-power-visa.svg" alt=" DC POWER VISA" />
                         <p>DC POWER VISA</p>
                     </div>
