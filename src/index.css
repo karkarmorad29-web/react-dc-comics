@@ -109,14 +109,14 @@ footer {
 }
 
 
-.img {
+.pre-footer-img {
   display: flex;
+  text-align: center;
   align-items: center;
   justify-content: space-between;
-  min-height: 100%;
-  width: 20%;
-  margin: 0 3rem;
-  padding: 0;
+  height: 35px;
+  width: 40px;
+
 }
 
 p {
@@ -149,8 +149,6 @@ footer img:hover {
   justify-content: space-between;
   align-items: flex-start;
   padding: 2rem 0;
-  background-color: red;
-
 }
 
 .row {

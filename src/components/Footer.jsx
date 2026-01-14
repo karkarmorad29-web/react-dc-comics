@@ -10,7 +10,7 @@ function Footer() {
             <div className="flex-container  justify-content-space-between">
                 <div className="row">
 
-                    <div className="img">
+                    <div className="pre-footer-img">
                         <img src="/img/buy-comics-digital-comics.png" alt=" DIGITAL COMICS" />
                         <p>DIGITAL COMICS</p>
                     </div>
