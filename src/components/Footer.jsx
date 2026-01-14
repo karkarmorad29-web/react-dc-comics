@@ -9,35 +9,64 @@ function Footer() {
         <footer>
             <div className="flex-container  justify-content-space-between">
                 <div className="row">
-                    <div className="footer-Column">
-                        <div className="imag">
-                            <img src="/img/buy-comics-digital-comics.png" alt=" DIGITAL COMICS" />
-                            <img src="/img/buy-comics-merchandise.png" alt=" MERCHANDISE" />
-                            <img src="/img/buy-comics-subscriptions.png" alt=" SUBSCRIPTIONS" />
-                            <img src="/img/buy-comics-shop-locator.png" alt=" SHOP LOCATOR" />
-                            <img src="/img/buy-dc-power-visa.svg" alt=" DC POWER VISA" />
-                        </div>
+
+                    <div>
+                        <img src="/img/buy-comics-digital-comics.png" alt=" DIGITAL COMICS" />
+                        <p>b</p>
                     </div>
+
+                    <div>
+                        <img src="/img/buy-comics-merchandise.png" alt=" MERCHANDISE" />
+                        <p>b</p>
+                    </div>
+
+                    <div>
+                        <img src="/img/buy-comics-subscriptions.png" alt=" SUBSCRIPTIONS" />
+                        <p>b</p>
+                    </div>
+
+                    <div>
+                        <img src="/img/buy-comics-shop-locator.png" alt="SHOP LOCATOR" />
+                        <p>b</p>
+
+                    </div>
+                    <div>
+                        <img src="/img/buy-dc-power-visa.svg" alt=" DC POWER VISA" />
+                        <p>b</p>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
                 </div>
 
-            </div>
+            </div >
 
             <div className="footer-Column">
                 <img src="/img/dc-logo-bg.png" alt="" />
             </div>
 
-            {footerSections.map(sezione => {
-                <div>
-                    <h4>{sezione.title}</h4>
-                    <ul>{
-                        sezione.items.map(item => {
-                            return <li><a href={item.href} key={item.id}>{item.label}</a></li>
-                        })}
-                    </ul>
-                </div>
-            })}
+            {
+                footerSections.map(sezione => {
+                    <div>
+                        <h4>{sezione.title}</h4>
+                        <ul>{
+                            sezione.items.map(item => {
+                                return <li><a href={item.href} key={item.id}>{item.label}</a></li>
+                            })}
+                        </ul>
+                    </div>
+                })
+            }
 
             <div className="container">
                 <div className="row">
