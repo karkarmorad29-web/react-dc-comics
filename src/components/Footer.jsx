@@ -50,7 +50,7 @@ function Footer() {
                             <li>TV</li>
                             <li>Games</li>
                             <li>Videos</li>
-                            <li>News</li>
+                            <li>SHOP</li>
                         </ul>
                     </div>
                 </div>
